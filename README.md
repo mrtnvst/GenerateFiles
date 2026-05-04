@@ -20,15 +20,25 @@ Modulaarne struktuur: Kogu loogika ei asu ühes failis. .psm1 fail laeb automaat
 
 Kasutajaliides: Kood on ingliskeelne, kuid kasutajaliides ja kommentaarid on eestikeelsed.
 
-Projekti struktuur
+Projekti struktuur:
 
 GenerateFiles/
-|- GenerateFiles.psm1      # Mooduli põhifail (laeb funktsioonid)
-|- Public/                 # Avalikud funktsioonid
-| |- Invoke-FileGeneration.ps1
-|- Private/                # Abifunktsioonid (nimede ja laiendite valik)
-    |- Get-RandomFileName.ps1
-    |- Get-RandomExtension.ps1
+
+|- GenerateFiles.psm1   
+
+# Mooduli põhifail (laeb funktsioonid)
+
+|- Public/          
+# Avalikud funktsioonid
+
+|- Invoke-FileGeneration.ps1
+|- Private/    
+
+Abifunktsioonid (nimede ja laiendite valik)
+
+ |- Get-RandomFileName.ps1
+    
+ |- Get-RandomExtension.ps1
 
 
 Paigaldamine
